@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: #03374d;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.container-cards {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+   align-items: center;
+    padding: 4em 0;
+    flex-direction: column;
+}
+
+.container-cards h1 {
+    color: white;
+    font-size: 4em;
+
+}
+
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+
+.container-box .box{
+  
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: #0a80b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-box .box.tre {
+background-color: #00c0a3;
+}
+
+.container-box .box.cinque {
+    background-color: #ffcf5f;
+}
+
+.container-box .box.quindici {
+    background-color: #ff596f;
+}
